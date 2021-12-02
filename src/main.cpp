@@ -3,7 +3,7 @@
 #include "nlohmann/json.hpp"
 using namespace std;
 
-#define DATA_DIR "Enter your"
+#define DATA_DIR "Enter your your the path to the file"
 
 int main() {
     nlohmann::json dir;
@@ -40,7 +40,7 @@ int main() {
 
 
             do {
-                // main character and actor or ext:(text) (text_2)
+                // main character and actor or ext:(text) (text_1) (text_2)
                 cout << "main character and actor or ext: ";
                 cin >> text;
                 if (text != "ext") {
